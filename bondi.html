@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bondi</title>
+    <!-- bootstrab css core -->
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+    <!-- fontawesome css core -->
+    <link rel="stylesheet" href="lib/css/all.min.css" />
+    <!-- main css style -->
+    <link rel="stylesheet" href="bondi.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a href="bondi.html" class="navbar-brand">
+            <img
+              src="imgs/brand/logo.jpg"
+              style="width: 100px"
+              alt="bondi_logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler border-secondary"
+            data-bs-toggle="collapse"
+            data-bs-target="#navTopCollapse"
+            aria-expanded="false"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              fill="currentColor"
+              class="bi bi-menu-button-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M1.5 0A1.5 1.5 0 0 0 0 1.5v2A1.5 1.5 0 0 0 1.5 5h8A1.5 1.5 0 0 0 11 3.5v-2A1.5 1.5 0 0 0 9.5 0h-8zm5.927 2.427A.25.25 0 0 1 7.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0l-.396-.396zM0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V8zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2H1zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2h14zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navTopCollapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="#" class="nav-link active px-lg-3" aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-lg-3">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-lg-3">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-lg-3">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-lg-3">Contact</a>
+              </li>
+            </ul>
+            <i class="search-i bi-search px-3 d-none d-lg-block"></i>
+            <form action="#" class="input-group mb-3 d-lg-none">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Search ..."
+              />
+              <button class="m-btn input-group-text px-3">Search</button>
+            </form>
+            <a href="#" class="m-btn py-2 px-4 d-block rounded-5">Login</a>
+          </div>
+        </div>
+      </nav>
+      <section class="landing d-flex align-items-center justify-content-center">
+        <div class="text-center text-light">
+          <h1 class="fw-normal text-white">Taste the Creativity</h1>
+          <p class="mb-4 sp">We make awesome graphic and web design</p>
+          <a href="#" class="m-btn px-5 rounded-5">Get Started</a>
+        </div>
+      </section>
+    </header>
+    <div class="services">
+      <div class="container py-5 text-center">
+        <div class="spicial-heading mb-5">
+          <img class="mb-5" src="imgs/Composite.png" />
+          <h2 class="mb-3">We are Good at</h2>
+          <p class="fw-normal position-relative text-uppercase sp">
+            Some Of Thease Stuff Under
+          </p>
+        </div>
+        <div class="row">
+          <div class="serv-box mb-5 mb-lg-0 col-md-6 col-lg-4" data-num="1">
+            <img class="mb-4 position-relative" src="imgs/services/Icon1.png" />
+            <h4 class="text-uppercase mb-3">Graphic Design</h4>
+            <p class="m-auto lh-lg sp">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+          <div class="serv-box mb-5 mb-lg-0 col-md-6 col-lg-4" data-num="2">
+            <img class="mb-4 position-relative" src="imgs/services/Icon2.png" />
+            <h4 class="text-uppercase mb-3">Web design</h4>
+            <p class="m-auto lh-lg sp">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+          <div class="serv-box mb-5 mb-lg-0 col-md-6 col-lg-4" data-num="3">
+            <img class="mb-4 position-relative" src="imgs/services/Icon3.png" />
+            <h4 class="text-uppercase mb-3">App design</h4>
+            <p class="m-auto lh-lg sp">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio">
+      <div class="container py-5 text-center">
+        <div class="spicial-heading mb-5 text-center">
+          <img class="mb-5" src="imgs/Composite.png" />
+          <h2 class="mb-3">We Make This</h2>
+          <p class="fw-normal position-relative text-uppercase sp">
+            Prepare To Be Amazed
+          </p>
+        </div>
+        <ul
+          class="mb-5 list-unstyled d-flex justify-content-center gap-3 flex-wrap"
+        >
+          <li class="px-4 py-2 rounded-3 sp active">All</li>
+          <li class="px-4 py-2 rounded-3 sp">Design</li>
+          <li class="px-4 py-2 rounded-3 sp">Code</li>
+          <li class="px-4 py-2 rounded-3 sp">Photography</li>
+          <li class="px-4 py-2 rounded-3 sp">Apps</li>
+        </ul>
+        <div class="row gap-4 mb-5 align-items-center justify-content-center">
+          <div
+            class="g-img p-0 col-sm-6 col-md-4 col-lg-3 position-relative shadow"
+            data-content="awesome Design"
+          >
+            <img
+              src="imgs/portfolio/design1.jpg"
+              alt=""
+              class="img-fluid h-100"
+            />
+          </div>
+          <div
+            class="g-img p-0 col-sm-6 col-md-4 col-lg-3 position-relative shadow"
+            data-content="awesome Design"
+          >
+            <img
+              src="imgs/portfolio/disign2.jpg"
+              alt=""
+              class="img-fluid h-100"
+            />
+          </div>
+          <div
+            class="g-img p-0 col-sm-6 col-md-4 col-lg-3 position-relative shadow"
+            data-content="awesome Code"
+          >
+            <img
+              src="imgs/portfolio/code1.jpg"
+              alt=""
+              class="img-fluid h-100"
+            />
+          </div>
+          <div
+            class="g-img p-0 col-sm-6 col-md-4 col-lg-3 position-relative shadow"
+            data-content="awesome Code"
+          >
+            <img
+              src="imgs/portfolio/code2.jpg"
+              alt=""
+              class="img-fluid h-100"
+            />
+          </div>
+          <div
+            class="g-img p-0 col-sm-6 col-md-4 col-lg-3 position-relative shadow"
+            data-content="awesome Photography"
+          >
+            <img
+              src="imgs/portfolio/photography1.jpg"
+              alt=""
+              class="img-fluid h-100"
+            />
+          </div>
+          <div
+            class="g-img p-0 col-sm-6 col-md-4 col-lg-3 position-relative shadow"
+            data-content="awesome Photography"
+          >
+            <img
+              src="imgs/portfolio/photography2.jpg"
+              alt=""
+              class="img-fluid h-100"
+            />
+          </div>
+          <div
+            class="g-img p-0 col-sm-6 col-md-4 col-lg-3 position-relative shadow"
+            data-content="awesome Apps"
+          >
+            <img
+              src="imgs/portfolio/apps1.jpg"
+              alt=""
+              class="img-fluid h-100"
+            />
+          </div>
+          <div
+            class="g-img p-0 col-sm-6 col-md-4 col-lg-3 position-relative shadow"
+            data-content="awesome Apps"
+          >
+            <img
+              src="imgs/portfolio/apps2.png"
+              alt=""
+              class="img-fluid h-100"
+            />
+          </div>
+        </div>
+        <a class="m-btn px-5 rounded-5 text-uppercase"> i want more </a>
+      </div>
+    </div>
+    <div class="about">
+      <div class="container py-5">
+        <div class="spicial-heading mb-5 text-center">
+          <img class="mb-5" src="imgs/Composite.png" />
+          <h2 class="mb-3">Some Stuff About Us</h2>
+          <p class="fw-normal position-relative text-uppercase sp">
+            The Great Team
+          </p>
+        </div>
+        <p class="about-desc m-auto px-2 text-center sp">
+          Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+          eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+          dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+          malesuada.
+        </p>
+        <div class="row justify-content-between mt-5 text-center text-lg-start">
+          <div class="col-lg-6 mb-5">
+            <h2 class="mb-3">Retina Design</h2>
+            <p class="sp">
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            </p>
+            <p class="mb-4 sp">
+              Donec rutrum congue leo eget malesuada. Mauris blandit aliquet
+              elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id
+              orci porta dapibus. Proin eget tortor risus. Donec sollicitudin
+              molestie malesuada.
+            </p>
+            <a href="#" class="m-btn text-uppercase rounded-pill px-5"
+              >Order Me One</a
+            >
+          </div>
+          <div class="col-lg-6">
+            <img src="imgs/about/MacBook.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="team">
+      <div class="container py-5 text-center">
+        <h2 class="mb-3">Meet The Team</h2>
+        <p class="sp mb-5">
+          Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+          eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+          dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+          malesuada.
+        </p>
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="imgs/team/team-1.jpg" alt="" />
+              <h5 class="p-3 text-light">Luke Skywalker</h5>
+              <p class="sp p-3">
+                “I don't understand how we got by those troops. I thought we
+                were dead.“
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="imgs/team/team-2.jpg" alt="" />
+              <h5 class="p-3 text-light">Luke Skywalker</h5>
+              <p class="sp p-3">
+                “I don't understand how we got by those troops. I thought we
+                were dead.“
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="imgs/team/team-3.jpg" alt="" />
+              <h5 class="p-3 text-light">Luke Skywalker</h5>
+              <p class="sp p-3">
+                “I don't understand how we got by those troops. I thought we
+                were dead.“
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="box bg-white">
+              <img class="img-fluid" src="imgs/team/team-4.jpg" alt="" />
+              <h5 class="p-3 text-light">Luke Skywalker</h5>
+              <p class="sp p-3">
+                “I don't understand how we got by those troops. I thought we
+                were dead.“
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clients">
+      <div class="container py-5 text-center">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-4 col-lg-2 mb-5 mb-lg-0">
+            <img src="imgs/clients/Logo1&5.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-4 col-lg-2 mb-5 mb-lg-0">
+            <img src="imgs/clients/Logo2&6.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-4 col-lg-2 mb-5 mb-lg-0">
+            <img src="imgs/clients/logo3.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-4 col-lg-2 mb-5 mb-lg-0">
+            <img src="imgs/clients/Logo4.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-4 col-lg-2 mb-5 mb-lg-0">
+            <img src="imgs/clients/Logo1&5.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col-md-4 col-lg-2 mb-0">
+            <img src="imgs/clients/Logo2&6.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="advertise py-5">
+      <div class="container text-center py-5">
+        <h2 class="mb-3 text-light">Start Your Project Now</h2>
+        <p class="sp mb-5">
+          Leave your description and we start the engine.Don't worry,you can
+          cancel anytime
+        </p>
+        <a href="#" class="m-btn px-5 text-uppercase rounded-pill"
+          >Start Project</a
+        >
+      </div>
+    </div>
+    <div class="blog">
+      <div class="container py-5 text-center">
+        <div class="spicial-heading mb-5 text-center">
+          <img class="mb-5" src="imgs/Composite.png" />
+          <h2 class="mb-3">Read Our Blog</h2>
+          <p class="fw-normal position-relative text-uppercase sp">
+            New Stories
+          </p>
+        </div>
+        <div class="row mb-4">
+          <div
+            class="col-lg-4 box text-center text-lg-start d-flex flex-column mb-4"
+          >
+            <img src="imgs/blog/blog.png" alt="" class="img-fluid" />
+            <small class="sp">January 17,2017</small>
+            <h6>Some Awesome Blog Title Here</h6>
+          </div>
+          <div
+            class="col-lg-4 box text-center text-lg-start d-flex flex-column mb-4"
+          >
+            <img src="imgs/blog/blog.png" alt="" class="img-fluid" />
+            <small class="sp">January 17,2017</small>
+            <h6>Some Awesome Blog Title Here</h6>
+          </div>
+          <div
+            class="col-lg-4 box text-center text-lg-start d-flex flex-column mb-4"
+          >
+            <img src="imgs/blog/blog.png" alt="" class="img-fluid" />
+            <small class="sp">January 17,2017</small>
+            <h6>Some Awesome Blog Title Here</h6>
+          </div>
+        </div>
+        <a href="#" class="m-btn px-5 text-uppercase rounded-pill"
+          >More Storise</a
+        >
+      </div>
+    </div>
+    <div class="subscribe">
+      <div class="container py-4 text-center">
+        <form action="#" class="row align-items-center justify-content-center">
+          <div class="col-md-6 col-lg-3">
+            <p class="m-0">Subscribe to our Newsletter:</p>
+          </div>
+          <div class="col-md-6 col-lg-6 mb-4 mb-lg-0">
+            <input
+              type="email"
+              placeholder="Enter Your Email"
+              class="w-100 p-2 mt-3 m-lg-0 text-light bg-transparent subscribe-email"
+            />
+          </div>
+          <div class="col-lg-3">
+            <input
+              type="submit"
+              class="btn btn-dark text-light border-0 rounded-pill px-5 py-2 mt-3 m-lg-0"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="container py-5 text-center text-md-start sp">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="info mb-5 mb-lg-0">
+              <a href="bondi.html">
+                <img
+                  src="imgs/brand/logo.jpg"
+                  style="width: 100px"
+                  alt="bondi_logo"
+                />
+              </a>
+              <p class="mt-4 mb-5 lh-lg">
+                ellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+                lacinia eget consectetur sed, convallis at tellus.
+              </p>
+              <div class="copyright lh-lg">
+                Created by <span>Graphberry</span>,Belgrade,Serbia
+                <div>&copy; 2017 - <span>Bondi.Inc</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h5 class="text-white fw-normal">Links</h5>
+            <ul class="links-list list-unstyled">
+              <li class="lh-lg">
+                <a href="#" class="text-decoration-none">Home</a>
+              </li>
+              <li class="lh-lg">
+                <a href="#" class="text-decoration-none">Our Services</a>
+              </li>
+              <li class="lh-lg">
+                <a href="#" class="text-decoration-none">Portfolio</a>
+              </li>
+              <li class="lh-lg">
+                <a href="#" class="text-decoration-none">Testimonials</a>
+              </li>
+              <li class="lh-lg">
+                <a href="#" class="text-decoration-none">Support</a>
+              </li>
+              <li class="lh-lg">
+                <a href="#" class="text-decoration-none">
+                  Terms and Conditions</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h5 class="text-white fw-normal">About Us</h5>
+            <ul class="about-list list-unstyled">
+              <li class="lh-lg">
+                <a href="#" class="text-decoration-none">Sign in</a>
+              </li>
+              <li class="lh-lg">
+                <a href="#" class="text-decoration-none">Register</a>
+              </li>
+              <li class="lh-lg">
+                <a href="#" class="text-decoration-none">About Us</a>
+              </li>
+              <li class="lh-lg">
+                <a href="#" class="text-decoration-none">Blog</a>
+              </li>
+              <li class="lh-lg">
+                <a href="#" class="text-decoration-none">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <h5 class="text-white fw-normal">Contact Us</h5>
+            <p class="mt-4 mb-5 lh-lg">
+              Get in touch with us via mail phone.We are waiting for your call
+              or message
+            </p>
+            <a href="#" class="m-btn text-white rounded-pill px-5"
+              >graphberry@gmail.com</a
+            >
+            <ul
+              class="social-list d-flex gap-4 list-unstyled mt-5 justify-content-center justify-content-lg-start"
+            >
+              <li>
+                <a href="#" class="text-white">
+                  <i class="fab fa-facebook-f facebook p-2 rounded-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white">
+                  <i class="fab fa-twitter twitter p-2 rounded-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white">
+                  <i class="fab fa-google-plus-g google p-2 rounded-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-white"
+                  ><i class="fab fa-dribbble dribbble p-2 rounded-circle"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="lib/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/js/all.min.js"></script>
+    <script src="bondi.js"></script>
+  </body>
+</html>
